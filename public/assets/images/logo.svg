@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500.01" height="125.002" viewBox="0 0 2100 525">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 350px;
+        filter: url(#filter);
+        font-family: Satisfy;
+      }
+    </style>
+    <filter id="filter" x="53" y="70" width="1994" height="415" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="53" y="70" width="1994" height="415" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTk5NCIgaGVpZ2h0PSI0MTUiIHZpZXdCb3g9IjAgMCAxOTk0IDQxNSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHkxPSIyMDcuNSIgeDI9IjE5OTQiIHkyPSIyMDcuNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMzE1IiBzdG9wLWNvbG9yPSIjZmY2ZTdlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zNDkiIHN0b3AtY29sb3I9IiNmZjZlN2UiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjY4NSIgc3RvcC1jb2xvcj0iIzc3MmNmZCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTk5NCIgaGVpZ2h0PSI0MTUiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="Parjanya_Modi" data-name="Parjanya Modi" class="cls-1" x="71.003" y="329.42">Parjanya Modi</text>
+</svg>
