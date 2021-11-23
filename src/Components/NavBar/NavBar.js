@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import styled from "styled-components";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";

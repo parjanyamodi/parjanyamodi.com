@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import styled from "styled-components";
 import { IoCloudDownloadSharp } from "react-icons/io5";
 import {

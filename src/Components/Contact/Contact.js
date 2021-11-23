@@ -1,8 +1,48 @@
 import React from "react";
 import styled from "styled-components";
 import { FaReact } from "react-icons/fa";
+import { db } from "../../firebase";
 
 const Contact = (props) => {
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [phone, setPhone] = React.useState("");
+  const [url, setUrl] = React.useState("");
+  const [message, setMessage] = React.useState("");
+  const rawTimestamp = Date.now();
+  const timestamp = new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  }).format(rawTimestamp);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    db.collection("contacts")
+      .add({
+        timestamp: timestamp,
+        name: name,
+        email: email,
+        phone: phone,
+        url: url,
+        message: message,
+      })
+      .then(() => {
+        alert("Thanks for submitting the form!\nWill reach out to you soon.");
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+
+    setName("");
+    setEmail("");
+    setPhone("");
+    setUrl("");
+    setMessage("");
+  };
   return (
     <div className="container">
       <div className="row">
@@ -16,12 +56,39 @@ const Contact = (props) => {
             </Intro>
           </div>
           <FormGroup>
-            <form>
-              <input type="text" placeholder="Full Name" required></input>
-              <input type="email" placeholder="Email Address" required></input>
-              <input type="tel" placeholder="Phone Number" required></input>
-              <input type="url" placeholder="Website/Social Media Link"></input>
-              <textarea placeholder="Please leave a message!"></textarea>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Full Name"
+                required
+              ></input>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Email Address"
+                required
+              ></input>
+              <input
+                type="tel"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                placeholder="Phone Number"
+                required
+              ></input>
+              <input
+                type="url"
+                value={url}
+                onChange={(e) => setUrl(e.target.value)}
+                placeholder="Website/Social Media Link"
+              ></input>
+              <textarea
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                placeholder="Please leave a message!"
+              ></textarea>
               <br></br>
               <button type="submit" id="submit" placeholder="Submit">
                 Submit

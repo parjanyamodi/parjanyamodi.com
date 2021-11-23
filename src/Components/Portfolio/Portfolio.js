@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { FaReact } from "react-icons/fa";
 
@@ -17,7 +16,7 @@ const Portfolio = (props) => {
                 <a
                   href="https://portfolio.parjanyamodi.com/"
                   target="_blank"
-                  rel="noopener noreferer"
+                  rel="noopener noreferrer"
                 >
                   Click Here
                 </a>
