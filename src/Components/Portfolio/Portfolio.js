@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { FaReact } from "react-icons/fa";
+import Experience from "./Experience";
 
 const Portfolio = (props) => {
   return (
@@ -25,6 +26,12 @@ const Portfolio = (props) => {
           </div>
         </div>
         <div className="col-md-3"></div>
+      </div>
+      <div className="row">
+        <div className="col-md-6">
+          <Experience align="left" />
+        </div>
+        <div className="col-md-6"></div>
       </div>
       <div className="row">
         <div className="col-md-12 mt-5">
