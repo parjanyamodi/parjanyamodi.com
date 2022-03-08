@@ -15,7 +15,7 @@ const Portfolio = (props) => {
                 <br />
                 Please visit this site for portfolio{" "}
                 <a
-                  href="https://portfolio.parjanyamodi.com/"
+                  href="https://www.linkedin.com/in/parjanyamodi/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
