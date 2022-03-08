@@ -12,7 +12,12 @@ const Portfolio = (props) => {
             <Intro>
               <div>
                 <img src="/assets/images/IMG_0943.jpeg" />
-                <p>Parjanya H. Modi</p>
+                <br />
+                <br />
+                <text>Parjanya H. Modi</text>
+                <br />
+                <span>Engineering Undergrad</span>
+                <br />
                 <span className="purple-hg">
                   reactJS | nodeJS | C | Python | HTML | CSS | JS | SQL & NoSQL
                 </span>
@@ -43,7 +48,7 @@ const Portfolio = (props) => {
                 </li>
                 <li>
                   Exposure to AWS Web Services, Google Cloud, Azure Services,
-                  Databases, Web Servers, Load Balancers, JavaScript &
+                  Databases, Web Servers, Network Load Balancers, JavaScript &
                   TypeScript.
                 </li>
               </ul>
@@ -66,7 +71,9 @@ const Portfolio = (props) => {
                       Bachelor Of Engineering | B.M.S College of Engineering
                     </text>
                     <br />
-                    <span>Aug ’19 – Aug '23</span>
+                    <i className="alignright">Aug ’19 – Aug '23</i>
+                    <br />
+
                     <ul>
                       <li>
                         Bachelor of Engineering in Computer Science &
@@ -81,7 +88,9 @@ const Portfolio = (props) => {
                       High School
                     </text>
                     <br />
-                    <span>June ’07 – March '19</span>
+                    <i className="alignright">June ’07 – March '19</i>
+                    <br />
+
                     <ul>
                       <li>
                         Secondary & Higher Secondary Education in Science Stream
@@ -99,7 +108,9 @@ const Portfolio = (props) => {
                   <li>
                     <text>Freelancer </text>
                     <br />
-                    <span>Oct ’19 – Present</span>
+                    <i className="alignright">Oct ’19 – Present</i>
+                    <br />
+
                     <ul>
                       <li>Developed responsive Websites.</li>
                       <li>
@@ -113,7 +124,9 @@ const Portfolio = (props) => {
                   <li>
                     <text>Technical Lead | IUCEE BMSCE</text>
                     <br />
-                    <span>Aug ’21 – Present</span>
+                    <i className="alignright">Aug ’21 – Present</i>
+                    <br />
+
                     <ul>
                       <li>
                         Contributed to the field of IT management and technical
@@ -136,7 +149,9 @@ const Portfolio = (props) => {
                   <li>
                     <text>Web Development Intern | Bullspree</text>
                     <br />
-                    <span>Apr ’21 – Jun ’21</span>
+                    <i className="alignright">Apr ’21 – Jun ’21</i>
+                    <br />
+
                     <ul>
                       <li>
                         Developed a responsive Website bullspree.com using HTML,
@@ -151,7 +166,8 @@ const Portfolio = (props) => {
                   <li>
                     <text>Graphic Designer | Team Hasiru</text>
                     <br />
-                    <span>Apr ’21 – Jun ’21</span>
+                    <i className="alignright">Apr ’21 – Jun ’21</i>
+                    <br />
                     <ul>
                       <li>
                         Designed Digital Posters & Printed Annual Magazine.
@@ -448,7 +464,7 @@ const Intro = styled.div`
         height: 250px;
         border-radius: 50%;
       }
-      p {
+      text {
         margin-top: 10px;
         font-size: 32px;
         font-weight: 700;
@@ -470,7 +486,7 @@ const Intro = styled.div`
         height: 250px;
         border-radius: 50%;
       }
-      p {
+      text {
         margin-top: 10px;
         font-size: 26px;
         font-weight: 700;
