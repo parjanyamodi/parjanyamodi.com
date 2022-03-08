@@ -78,3 +78,18 @@
   flex: 1 1 auto;
   padding: 0 0 0 1rem;
 }
+.purple-hg {
+  background-color: #c885da;
+}
+.yellow-hg {
+  background-color: #feff04;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+.certiprof-iframe {
+  height: 270px;
+}
