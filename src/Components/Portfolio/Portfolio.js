@@ -177,6 +177,40 @@ const Portfolio = (props) => {
                       </li>
                     </ul>
                   </li>
+                  <li>
+                    <text>Lead Developer | VTU Fest 2022 - Prathibhotsava</text>
+                    <br />
+                    <i className="alignright">Jun ’22 – Aug ’22</i>
+                    <br />
+                    <ul>
+                      <li>
+                        Desinged and Developed MERN stack website -{" "}
+                        <a
+                          href="https://prathibhotsava.bmsce.in"
+                          target="_blank"
+                        >
+                          prathibhotsava.bmsce.in
+                        </a>
+                      </li>
+                      <li>
+                        Developed registration portal -{" "}
+                        <a
+                          href="https://registration.prathibhotsava.in"
+                          target="_blank"
+                        >
+                          registration.prathibhotsava.in
+                        </a>
+                      </li>
+                      <li>
+                        Developed APIs to transfer the content from Database to
+                        Google Sheets.
+                      </li>
+                      <li>
+                        Coordinated a team of 6 developers and successfully
+                        completed the task in given time.
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </Timeline>
             </div>
