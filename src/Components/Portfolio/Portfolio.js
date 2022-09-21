@@ -37,21 +37,27 @@ const Portfolio = (props) => {
               <span className="yellow-hg">Profile Summary</span>
               <ul>
                 <li>
-                  Organized, energetic and dependable individual who strives for
-                  excellence in the field of work that I engage myself in.
-                  Observation, kindness and resilience are some of my defining
-                  attributes.
+                   I am a tech-enthusiast, a problem solver and a quick learner who strives for excellence in the field of work that I engage myself in.
+Confidence, simplicity and reliability are some of my defining attributes.
                 </li>
                 <li>
-                  2+ Years of experience in MERN Stack Web Development, Cloud
-                  Solutions, Computer Networks & UI/UX Designing.
+                  More than 3 years of experience in MERN Stack Web Development, Cloud Solutions, Computer Networks & UI/UX Designing.
                 </li>
-                <li>
-                  Exposure to AWS Web Services, Google Cloud, Azure Services,
-                  Databases, Web Servers, Network Load Balancers, JavaScript &
-                  TypeScript.
-                </li>
+              
               </ul>
+            </div>
+          </Summary>
+          <hr />
+        </div>
+        <div className="col-md-1"></div>
+      </div>
+    <div className="row">
+        <div className="col-md-1"></div>
+        <div className="col-md-10">
+          <Summary>
+            <div>
+              <span className="yellow-hg">Technical Experience</span>
+              <div className="row"></div>
             </div>
           </Summary>
           <hr />
