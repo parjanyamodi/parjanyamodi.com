@@ -123,111 +123,80 @@ Balancing.</li><li>OS: Linux, Windows, Windows Server & macOS.</li></ul></div></
                 <span className="yellow-hg">Experience</span>
                 <ul>
                   <li>
+                    <text>Dev Team Lead & System Engineer | Prathibhotsava - 21st VTU Youth Festival </text>
+                    <br />
+                      <i className="alignleft">Bengaluru</i>
+                    <i className="alignright">May ’22 – Present</i>
+                    <br />
+
+                    <ul>
+                      <li>My key responsibilities included designing aesthetic and efficient software solutions to address the registration process of more
+than 40,000 people across the state of Karnataka. I was instrumental in designing, deploying and maintaining the requisite software
+infrastructure on the cloud. It is noteworthy that this web software successfully handled more than 1.6 Million requests in 45 days.</li>
+                    </ul>
+                  </li>
+                  <li>
                     <text>Freelancer </text>
                     <br />
+  <i className="alignleft">Multiple Locations & Remote</i>
                     <i className="alignright">Oct ’19 – Present</i>
                     <br />
 
                     <ul>
-                      <li>Developed responsive Websites.</li>
                       <li>
-                        Established Enterprise Level Networks and worked with
-                        Linux servers and configured networks using
-                        Cisco/TP-Link L2 & L3 Switch and VPN Routers.
+                        Established Enterprise Level Networks and worked with Linux servers and configured networks using Cisco/TP-Link L2 & L3 Switch
+and VPN Routers.
                       </li>
-                      <li>Worked with HTML, JS & CSS with LAMP Stack.</li>
+                      <li>Developed responsive websites and web apps. Worked with HTML, JS & CSS with LAMP Stack.</li>
                     </ul>
                   </li>
                   <li>
-                    <text>Technical Lead | IUCEE BMSCE</text>
+                    <text>Technical Head | IUCEE Student Chapter of BMSCE</text>
                     <br />
-                    <i className="alignright">Aug ’21 – Present</i>
+                        <i className="alignleft">Bengaluru</i>
+                    <i className="alignright">Oct ’19 – Jun ’22</i>
                     <br />
 
                     <ul>
-                      <li>
-                        Contributed to the field of IT management and technical
-                        development of the student community through this club.
-                      </li>
-                      <li>
-                        {" "}
-                        Spread my knowledge to other students via this platform.
-                      </li>
-                      <li>
-                        {" "}
-                        Developed Website using MERN Stack{" "}
-                        <a href="https://iucee-bmsce.live" target="_blank">
-                          iucee-bmsce.live
-                        </a>{" "}
-                        .
+                      <li>I developed, maintained and upgraded the official website for the Indo-Universal Collaboration for Engineering Education Student
+Chapter of BMSCE. This organisation actively makes engineering education more relevant by bridging the gap between academia
+and industry
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <text>Web Development Intern | Bullspree</text>
+                    <text>Web Dev & IT Support Intern | Bullspree</text>
                     <br />
-                    <i className="alignright">Apr ’21 – Jun ’21</i>
+                                              <i className="alignleft">Remote</i>
+
+                    <i className="alignright">Apr ’21 – Jul ’21</i>
                     <br />
 
                     <ul>
                       <li>
-                        Developed a responsive Website bullspree.com using HTML,
-                        JS & CSS with MERN Stack.
+                        Add-on Tech Stack: PHP, Apache Tomcat, OpenSSL.
                       </li>
                       <li>
-                        Set up their Mailing system and Backend Server on AWS
-                        Cloud (AWS WorkMail and EC2).
+                        I developed multiple websites, web apps and API Endpoints for internal and public usage. Fulfilled the needs of different
+stakeholders involved directly or indirectly.
                       </li>
                     </ul>
                   </li>
                   <li>
                     <text>Graphic Designer | Team Hasiru</text>
                     <br />
-                    <i className="alignright">Apr ’21 – Jun ’21</i>
+                    <i className="alignright">Sep ’20 – Mar ’21</i>
                     <br />
                     <ul>
                       <li>
                         Designed Digital Posters & Printed Annual Magazine.
                       </li>
                       <li>
-                        Worked with Photoshop, Illustrator, Corel Draw & Canva.
+                       Tools: Adobe Photoshop, Adobe Illustrator, Corel Draw & Canva.
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <text>Lead Developer | VTU Fest 2022 - Prathibhotsava</text>
-                    <br />
-                    <i className="alignright">Jun ’22 – Aug ’22</i>
-                    <br />
-                    <ul>
-                      <li>
-                        Desinged and Developed MERN stack website -{" "}
-                        <a
-                          href="https://prathibhotsava.bmsce.in"
-                          target="_blank"
-                        >
-                          prathibhotsava.bmsce.in
-                        </a>
-                      </li>
-                      <li>
-                        Developed registration portal -{" "}
-                        <a
-                          href="https://registration.prathibhotsava.in"
-                          target="_blank"
-                        >
-                          registration.prathibhotsava.in
-                        </a>
-                      </li>
-                      <li>
-                        Developed APIs to transfer the content from Database to
-                        Google Sheets.
-                      </li>
-                      <li>
-                        Coordinated a team of 6 developers and successfully
-                        completed the task in given time.
-                      </li>
-                    </ul>
-                  </li>
+                 
                 </ul>
               </Timeline>
             </div>
