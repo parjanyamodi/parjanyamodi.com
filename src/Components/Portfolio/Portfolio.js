@@ -11,7 +11,7 @@ const Portfolio = (props) => {
           <div className="mt-2">
             <Intro>
               <div>
-                <img src="/assets/images/IMG_0943.jpeg" />
+                <img src="/assets/images/parjanyamodi.png" />
                 <br />
                 <br />
                 <text>Parjanya H. Modi</text>
