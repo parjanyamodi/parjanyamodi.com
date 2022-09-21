@@ -184,7 +184,8 @@ stakeholders involved directly or indirectly.
                   </li>
                   <li>
                     <text>Graphic Designer | Team Hasiru</text>
-                    <br />
+                    <br />                                              <i className="alignleft">Bengaluru</i>
+
                     <i className="alignright">Sep ’20 – Mar ’21</i>
                     <br />
                     <ul>
