@@ -57,7 +57,18 @@ Confidence, simplicity and reliability are some of my defining attributes.
           <Summary>
             <div>
               <span className="yellow-hg">Technical Experience</span>
-              <div className="row"></div>
+              <div className="row">
+    <div className="col-md-6">
+    <ul>
+    <li>Languages: Javascript, Python, Bash Shell, C.</li>
+    <li>Frameworks: reactJS, nodeJS, ExpressJS, PHP.</li>
+    <li>Cloud: Linode, AWS, GCP & Digital Ocean.</li>
+    <li>Tools: GitHub Actions, Ansible, Git, GoogleAPIs, S3 APIs,
+nodemailer, Apache Redis, OpenSSL, Firewall, JWT Token,
+PM2, OpenSSH.</li>
+    </ul></div><div className="col-md-6"><ul><li>Database & Storage: MongoDB, MySQL PostgreSQL, Firebase,
+S3 & Firebase.</li><li>Network: Nginx reverse proxy, Cloudflare DNS & Proxies, Load
+Balancing.</li><li>OS: Linux, Windows, Windows Server & macOS.</li></ul></div></div>
             </div>
           </Summary>
           <hr />
