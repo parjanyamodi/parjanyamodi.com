@@ -84,7 +84,7 @@ const Home = (props) => {
                     <FaYoutube />
                   </a>
                   <a
-                    href="mailto:contact@parjanyamodi.com"
+                    href="mailto:parjanyahmodi@gmail.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
