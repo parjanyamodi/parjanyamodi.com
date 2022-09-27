@@ -11,7 +11,7 @@ const Portfolio = (props) => {
           <div className="mt-2">
             <Intro>
               <div>
-                <img src="/assets/images/parjanyamodipic" />
+                <img src="/assets/images/0G0A6707-OG copy copy cropped 2.jpg" />
                 <br />
                 <br />
                 <text>Parjanya H. Modi</text>
@@ -37,13 +37,15 @@ const Portfolio = (props) => {
               <span className="yellow-hg">Profile Summary</span>
               <ul>
                 <li>
-                   I am a tech-enthusiast, a problem solver and a quick learner who strives for excellence in the field of work that I engage myself in.
-Confidence, simplicity and reliability are some of my defining attributes.
+                  I am a tech-enthusiast, a problem solver and a quick learner
+                  who strives for excellence in the field of work that I engage
+                  myself in. Confidence, simplicity and reliability are some of
+                  my defining attributes.
                 </li>
                 <li>
-                  More than 3 years of experience in MERN Stack Web Development, Cloud Solutions, Computer Networks & UI/UX Designing.
+                  More than 3 years of experience in MERN Stack Web Development,
+                  Cloud Solutions, Computer Networks & UI/UX Designing.
                 </li>
-              
               </ul>
             </div>
           </Summary>
@@ -51,24 +53,39 @@ Confidence, simplicity and reliability are some of my defining attributes.
         </div>
         <div className="col-md-1"></div>
       </div>
-    <div className="row">
+      <div className="row">
         <div className="col-md-1"></div>
         <div className="col-md-10">
           <Summary>
             <div>
               <span className="yellow-hg">Technical Experience</span>
               <div className="row">
-    <div className="col-md-6">
-    <ul>
-    <li>Languages: Javascript, Python, Bash Shell, C.</li>
-    <li>Frameworks: reactJS, nodeJS, ExpressJS, PHP.</li>
-    <li>Cloud: Linode, AWS, GCP & Digital Ocean.</li>
-    <li>Tools: GitHub Actions, Ansible, Git, GoogleAPIs, S3 APIs,
-nodemailer, Apache Redis, OpenSSL, Firewall, JWT Token,
-PM2, OpenSSH.</li>
-    </ul></div><div className="col-md-6"><ul><li>Database & Storage: MongoDB, MySQL PostgreSQL, Firebase,
-S3 & Firebase.</li><li>Network: Nginx reverse proxy, Cloudflare DNS & Proxies, Load
-Balancing.</li><li>OS: Linux, Windows, Windows Server & macOS.</li></ul></div></div>
+                <div className="col-md-6">
+                  <ul>
+                    <li>Languages: Javascript, Python, Bash Shell, C.</li>
+                    <li>Frameworks: reactJS, nodeJS, ExpressJS, PHP.</li>
+                    <li>Cloud: Linode, AWS, GCP & Digital Ocean.</li>
+                    <li>
+                      Tools: GitHub Actions, Ansible, Git, GoogleAPIs, S3 APIs,
+                      nodemailer, Apache Redis, OpenSSL, Firewall, JWT Token,
+                      PM2, OpenSSH.
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <ul>
+                    <li>
+                      Database & Storage: MongoDB, MySQL PostgreSQL, Firebase,
+                      S3 & Firebase.
+                    </li>
+                    <li>
+                      Network: Nginx reverse proxy, Cloudflare DNS & Proxies,
+                      Load Balancing.
+                    </li>
+                    <li>OS: Linux, Windows, Windows Server & macOS.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Summary>
           <hr />
@@ -123,69 +140,86 @@ Balancing.</li><li>OS: Linux, Windows, Windows Server & macOS.</li></ul></div></
                 <span className="yellow-hg">Experience</span>
                 <ul>
                   <li>
-                    <text>Dev Team Lead & System Engineer | Prathibhotsava - 21st VTU Youth Festival </text>
+                    <text>
+                      Dev Team Lead & System Engineer | Prathibhotsava - 21st
+                      VTU Youth Festival{" "}
+                    </text>
                     <br />
-                      <i className="alignleft">Bengaluru</i>
+                    <i className="alignleft">Bengaluru</i>
                     <i className="alignright">May ’22 – Present</i>
                     <br />
 
                     <ul>
-                      <li>My key responsibilities included designing aesthetic and efficient software solutions to address the registration process of more
-than 40,000 people across the state of Karnataka. I was instrumental in designing, deploying and maintaining the requisite software
-infrastructure on the cloud. It is noteworthy that this web software successfully handled more than 1.6 Million requests in 45 days.</li>
+                      <li>
+                        My key responsibilities included designing aesthetic and
+                        efficient software solutions to address the registration
+                        process of more than 40,000 people across the state of
+                        Karnataka. I was instrumental in designing, deploying
+                        and maintaining the requisite software infrastructure on
+                        the cloud. It is noteworthy that this web software
+                        successfully handled more than 1.6 Million requests in
+                        45 days.
+                      </li>
                     </ul>
                   </li>
                   <li>
                     <text>Freelancer </text>
                     <br />
-  <i className="alignleft">Multiple Locations & Remote</i>
+                    <i className="alignleft">Multiple Locations & Remote</i>
                     <i className="alignright">Oct ’19 – Present</i>
                     <br />
 
                     <ul>
                       <li>
-                        Established Enterprise Level Networks and worked with Linux servers and configured networks using Cisco/TP-Link L2 & L3 Switch
-and VPN Routers.
+                        Established Enterprise Level Networks and worked with
+                        Linux servers and configured networks using
+                        Cisco/TP-Link L2 & L3 Switch and VPN Routers.
                       </li>
-                      <li>Developed responsive websites and web apps. Worked with HTML, JS & CSS with LAMP Stack.</li>
+                      <li>
+                        Developed responsive websites and web apps. Worked with
+                        HTML, JS & CSS with LAMP Stack.
+                      </li>
                     </ul>
                   </li>
                   <li>
                     <text>Technical Head | IUCEE Student Chapter of BMSCE</text>
                     <br />
-                        <i className="alignleft">Bengaluru</i>
+                    <i className="alignleft">Bengaluru</i>
                     <i className="alignright">Oct ’19 – Jun ’22</i>
                     <br />
 
                     <ul>
-                      <li>I developed, maintained and upgraded the official website for the Indo-Universal Collaboration for Engineering Education Student
-Chapter of BMSCE. This organisation actively makes engineering education more relevant by bridging the gap between academia
-and industry
+                      <li>
+                        I developed, maintained and upgraded the official
+                        website for the Indo-Universal Collaboration for
+                        Engineering Education Student Chapter of BMSCE. This
+                        organisation actively makes engineering education more
+                        relevant by bridging the gap between academia and
+                        industry
                       </li>
                     </ul>
                   </li>
                   <li>
                     <text>Web Dev & IT Support Intern | Bullspree</text>
                     <br />
-                                              <i className="alignleft">Remote</i>
+                    <i className="alignleft">Remote</i>
 
                     <i className="alignright">Apr ’21 – Jul ’21</i>
                     <br />
 
                     <ul>
+                      <li>Add-on Tech Stack: PHP, Apache Tomcat, OpenSSL.</li>
                       <li>
-                        Add-on Tech Stack: PHP, Apache Tomcat, OpenSSL.
-                      </li>
-                      <li>
-                        I developed multiple websites, web apps and API Endpoints for internal and public usage. Fulfilled the needs of different
-stakeholders involved directly or indirectly.
+                        I developed multiple websites, web apps and API
+                        Endpoints for internal and public usage. Fulfilled the
+                        needs of different stakeholders involved directly or
+                        indirectly.
                       </li>
                     </ul>
                   </li>
                   <li>
                     <text>Graphic Designer | Team Hasiru</text>
-                    <br />                                              <i className="alignleft">Bengaluru</i>
-
+                    <br /> <i className="alignleft">Bengaluru</i>
                     <i className="alignright">Sep ’20 – Mar ’21</i>
                     <br />
                     <ul>
@@ -193,11 +227,11 @@ stakeholders involved directly or indirectly.
                         Designed Digital Posters & Printed Annual Magazine.
                       </li>
                       <li>
-                       Tools: Adobe Photoshop, Adobe Illustrator, Corel Draw & Canva.
+                        Tools: Adobe Photoshop, Adobe Illustrator, Corel Draw &
+                        Canva.
                       </li>
                     </ul>
                   </li>
-                 
                 </ul>
               </Timeline>
             </div>
