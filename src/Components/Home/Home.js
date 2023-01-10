@@ -41,7 +41,7 @@ const Home = (props) => {
               </span>
             </Stack>
           </div>
-          <a href="/assets/pdfs/Parjanya Modi.pdf" target="_blank">
+          <a href="/assets/pdfs/Parjanya Modi - Resume.pdf" target="_blank">
             <Button className="mt-4">
               <span>
                 Download Resume &nbsp;

@@ -140,6 +140,27 @@ const Portfolio = (props) => {
                 <span className="yellow-hg">Experience</span>
                 <ul>
                   <li>
+                    <text>Intern - DevOps Engineer | Ankercloud Gmbh</text>
+                    <br />
+                    <i className="alignleft">Bengaluru</i>
+                    <i className="alignright">Oct ’22 – Dec ’22</i>
+                    <br />
+
+                    <ul>
+                      <li>
+                        My key responsibilities included setting up CI/CD
+                        pipelines for test environments, deploying, and
+                        maintaining ec2 instances and databases. I was a part of
+                        a project that included designing cloud architecture for
+                        a highly scalable product.
+                      </li>
+                      <li>
+                        Worked with VPC, AWS ELB, AWS EC2, Jenkins, Maven,
+                        MongoDB, Dockers and Kubernetes.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
                     <text>
                       Dev Team Lead & System Engineer | Prathibhotsava - 21st
                       VTU Youth Festival{" "}
