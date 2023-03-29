@@ -140,6 +140,13 @@ const Portfolio = (props) => {
                 <span className="yellow-hg">Experience</span>
                 <ul>
                   <li>
+                    <text>Intern - Site Reliability Engineer | CRED</text>
+                    <br />
+                    <i className="alignleft">Bengaluru</i>
+                    <i className="alignright">Jan ’22 – Present</i>
+                    <br />
+                  </li>
+                  <li>
                     <text>Intern - DevOps Engineer | Ankercloud Gmbh</text>
                     <br />
                     <i className="alignleft">Bengaluru</i>
