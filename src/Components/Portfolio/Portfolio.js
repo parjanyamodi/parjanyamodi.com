@@ -491,6 +491,7 @@ const Portfolio = (props) => {
     </div>
   );
 };
+
 const Timeline = styled.div`
   @media (min-width: 992px) {
     text-align: left;
