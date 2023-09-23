@@ -39,8 +39,11 @@ const Portfolio = (props) => {
                 <li>
                   I am a tech-enthusiast, a problem solver and a quick learner
                   who strives for excellence in the field of work that I engage
-                  myself in. Confidence, simplicity and reliability are some of
-                  my defining attributes.
+                  myself in.
+                </li>
+                <li>
+                  Confidence, simplicity and reliability are some of my defining
+                  attributes.
                 </li>
                 <li>
                   More than 3 years of experience in MERN Stack Web Development,
@@ -60,30 +63,28 @@ const Portfolio = (props) => {
             <div>
               <span className="yellow-hg">Technical Experience</span>
               <div className="row">
-                <div className="col-md-6">
-                  <ul>
-                    <li>Languages: Javascript, Python, Bash Shell, C.</li>
-                    <li>Frameworks: reactJS, nodeJS, ExpressJS, PHP.</li>
-                    <li>Cloud: Linode, AWS, GCP & Digital Ocean.</li>
-                    <li>
-                      Tools: GitHub Actions, Ansible, Git, GoogleAPIs, S3 APIs,
-                      nodemailer, Apache Redis, OpenSSL, Firewall, JWT Token,
-                      PM2, OpenSSH.
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <ul>
-                    <li>
-                      Database & Storage: MongoDB, MySQL PostgreSQL, Firebase,
-                      S3 & Firebase.
-                    </li>
-                    <li>
-                      Network: Nginx reverse proxy, Cloudflare DNS & Proxies,
-                      Load Balancing.
-                    </li>
-                    <li>OS: Linux, Windows, Windows Server & macOS.</li>
-                  </ul>
+                <div className="col-12">
+                  <p>
+                    <strong>Javascript</strong>, <strong>Python</strong>,{" "}
+                    <strong>Bash</strong> <strong>Shell</strong>, C,{" "}
+                    <strong>reactJS</strong>, <strong>nextJS</strong>,{" "}
+                    <strong>nodeJS</strong>,<strong>ExpressJS</strong>, PHP,{" "}
+                    <strong>Linode</strong>, <strong>AWS</strong>, GCP &{" "}
+                    <strong>Digital Ocean</strong>, GitHub Actions, Ansible,{" "}
+                    <strong>Git</strong>, Google APIs,{" "}
+                    <strong>AWS S3 APIs</strong>, <strong>nodemailer</strong>,
+                    <strong>Apache Redis</strong>, OpenSSL,{" "}
+                    <strong>Firewalls</strong>, <strong>JWT Token</strong>,{" "}
+                    <strong>PM2</strong>, OpenSSH,
+                    <strong>Zoho ZeptoMail</strong>, <strong>MongoDB</strong>,{" "}
+                    <strong>Clickhouse</strong>, <strong>MySQL</strong>,
+                    PostgreSQL, Firebase, S3 & Firestore,{" "}
+                    <strong>Nginx reverse proxy</strong>,{" "}
+                    <strong>Cloudflare DNS</strong> & Proxies,
+                    <strong>Load Balancing</strong>,{" "}
+                    <strong>AWS Elastic Load Balancing</strong>, Linux, Windows
+                    Server.
+                  </p>
                 </div>
               </div>
             </div>
@@ -143,8 +144,39 @@ const Portfolio = (props) => {
                     <text>Intern - Site Reliability Engineer | CRED</text>
                     <br />
                     <i className="alignleft">Bengaluru</i>
-                    <i className="alignright">Jan ’22 – Present</i>
+                    <i className="alignright">Jan ’23 – Aug ’23</i>
                     <br />
+                    <ul>
+                      <li>
+                        Handled Role based access to federated users and
+                        services across all verticals for developers, testers
+                        and business users.
+                      </li>
+                      <li>
+                        Played instrumental role in adaptation of clickhouse
+                        database for scalable querying capability as well as
+                        highly available system for VPC flow logs of the
+                        organization’s cloud infrastructure.
+                      </li>
+                      <li>
+                        Made several automation tools for monitoring and
+                        internal usage that improved the productivity of the
+                        operations. These tools include, Daily VPN config
+                        Backup, auto revoke IAM policies, S3 to DB migration
+                        tool, just to name a few.
+                      </li>
+                      <li>
+                        Built an in-house vulnerability eliminator that protects
+                        infrastructure from malicious attacks caused due to
+                        security group loopholes and integration with slack to
+                        notify the user about the same.
+                      </li>
+                      <li>
+                        Worked extensively with IAM roles and users, AWS secrets
+                        manager, AWS systems manager, VPC, AWS route53, SQS,
+                        pritunl VPN tech stacks.
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <text>Intern - DevOps Engineer | Ankercloud Gmbh</text>
@@ -471,6 +503,7 @@ const Timeline = styled.div`
       li {
         font-size: 14px;
         font-weight: 500;
+        text-align: justify;
         text {
           font-size: 16px;
           font-weight: 700;
@@ -493,6 +526,7 @@ const Timeline = styled.div`
       li {
         font-size: 14px;
         font-weight: 500;
+        text-align: justify;
         text {
           font-size: 16px;
           font-weight: 700;
@@ -513,7 +547,13 @@ const Summary = styled.div`
       li {
         font-size: 16px;
         font-weight: 500;
+        text-align: justify;
       }
+    }
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      text-align: justify;
     }
   }
   @media (max-width: 992px) {
@@ -527,7 +567,14 @@ const Summary = styled.div`
       li {
         font-size: 14px;
         font-weight: 500;
+        text-align: justify;
+        text-align: justify;
       }
+    }
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      text-align: justify;
     }
   }
 `;
