@@ -1,5 +1,6 @@
 import { NextUIProvider } from "@nextui-org/react";
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 export default function PageWrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -9,6 +10,7 @@ export default function PageWrapper({ children }: { children: React.ReactNode })
         <div className="flex flex-col w-full h-full">
           {children}
         </div>
+        <Footer />
       </div>
     </UIWrappers>
   );
