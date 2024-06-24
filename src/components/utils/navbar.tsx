@@ -4,16 +4,30 @@ import Link from "next/link";
 
 export default function Navbar() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-
+  const navData = [{
+    name: "Home",
+    link: "/",
+    target: "_self"
+  }, {
+    name: "Blogs",
+    link: "https://medium.com/@parjanyahmodi",
+    target: "_blank"
+  }, {
+    name: "Contact Me",
+    link: "/#contact-me",
+    target: "_self"
+  }]
   return <div className="flex flex-row justify-between w-full px-8 xl:px-64 lg:px-44 md:px-30 py-6 md:py-8">
     <div className="flex items-center">
       {/* <Image src="" alt="" className="h-8 w-8" /> */}
       <span className="font-bold text-xl">Parjanya Modi</span>
     </div>
     <div className=" items-center space-x-8 hidden sm:flex">
-      <Link href="/" className="text-xl">Home</Link>
-      <Link href="/blogs" className="text-xl">Blogs</Link>
-      <Link href="/#contact-me" className="text-xl">Contact Me</Link>
+      {
+        navData.map((nav, index) => (
+          <Link key={index} href={nav.link} target={nav.target} className="text-xl">{nav.name}</Link>
+        ))
+      }
     </div>
     <div className="flex sm:hidden">
       <button className="flex flex-col items-center justify-center gap-1 bg-white p-2" onClick={onOpen}>
@@ -36,10 +50,11 @@ export default function Navbar() {
                 <ModalHeader></ModalHeader>
                 <ModalBody>
                   <div className="flex flex-col gap-4">
-                    <Link href="/" className="text-xl" onClick={onClose}>Home</Link>
-                    <Link href="/blogs" className="text-xl" onClick={onClose}>Blogs</Link>
-                    <Link href="/#contact-me" className="text-xl" onClick={onClose}>Contact Me</Link>
-                  </div>
+                    {
+                      navData.map((nav, index) => (
+                        <Link key={index} href={nav.link} target={nav.target} className="text-xl" onClick={onClose}>{nav.name}</Link>
+                      ))
+                    } </div>
                 </ModalBody>
                 <ModalFooter>
                 </ModalFooter>
