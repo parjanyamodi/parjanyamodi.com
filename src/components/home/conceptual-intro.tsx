@@ -34,7 +34,7 @@ export default function ConceptualIntro() {
       <div className="flex flex-col w-full h-full ">
         <Card classNames={{
           base: "shadow-none bg-white border-b-[0.5px] md:border-0 md:border-r-[0.5px]  border-indigo-700",
-          body: "px-12 py-16 gap-12"
+          body: "px-10 py-16 gap-12"
         }}
           radius="none"
         >
@@ -50,7 +50,7 @@ export default function ConceptualIntro() {
       <div className="flex flex-col w-full h-full ">
         <Card classNames={{
           base: "shadow-none bg-white border-t-[0.5px] md:border-0 md:border-l-[0.5px]  border-indigo-700",
-          body: "px-12 py-16 gap-12"
+          body: "px-10 py-16 gap-12"
         }}
           radius="none"
         >
