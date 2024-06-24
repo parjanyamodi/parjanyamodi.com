@@ -136,7 +136,7 @@ export default function TechnologiesWorkedWith() {
     <div className="flex flex-row w-full h-full">
       <p className="text-4xl font-bold text-average-yellow">Technologies I&apos;ve worked with</p>
     </div>
-    <p>Frontend Technologies :-</p>
+    <p className="text-lg font-medium">Frontend Technologies :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
         feTechnologies.map((technology, index) => {
@@ -147,7 +147,7 @@ export default function TechnologiesWorkedWith() {
       }
     </div>
     <Divider className="bg-white/20" />
-    <p>Backend Technologies :-</p>
+    <p className="text-lg font-medium">Backend Technologies :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
         beTechnologies.map((technology, index) => {
@@ -158,7 +158,7 @@ export default function TechnologiesWorkedWith() {
       }
     </div>
     <Divider className="bg-white/20" />
-    <p>Storage & Database Systems :-</p>
+    <p className="text-lg font-medium">Storage & Database Systems :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
         databaseStorageTechnologies.map((technology, index) => {
@@ -169,7 +169,7 @@ export default function TechnologiesWorkedWith() {
       }
     </div>
     <Divider className="bg-white/20" />
-    <p>Cloud & DevOps Technologies :-</p>
+    <p className="text-lg font-medium">Cloud & DevOps Technologies :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
         cloudDevOpsTechnologies.map((technology, index) => {
