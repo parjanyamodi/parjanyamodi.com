@@ -1,7 +1,7 @@
 export default function GetInTouch() {
-  return <div className="flex flex-col px-8 xl:px-64 lg:px-44 md:px-30 py-32 gap-8" id="contact-me">
+  return <div className="flex flex-col px-8 xl:px-64 lg:px-44 md:px-30 py-32 gap-8" >
     <div className="flex flex-row w-full h-full">
-      <p className="text-4xl font-bold text-average-yellow">Get in touch</p>
+      <p className="text-4xl font-bold text-average-yellow" id="contact-me">Get in touch</p>
     </div>
     <div className="flex flex-col md:flex-row w-full h-full gap-8">
       <input type="text" placeholder="Your Name" className="w-full py-4 outline-none rounded-none  border-b-2 bg-transparent" />
