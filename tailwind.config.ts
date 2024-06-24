@@ -18,7 +18,7 @@ const config: Config = {
       },
       colors: {
         'average-yellow': '#EDFE79'
-      }
+      },
     },
   },
   darkMode: "class",
