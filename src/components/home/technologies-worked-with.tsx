@@ -102,7 +102,6 @@ export default function TechnologiesWorkedWith() {
       name: "Python",
       logo: pythonLogo
     },]
-
   const databaseStorageTechnologies = [{
     name: "MongoDB",
     logo: mongodbLogo
