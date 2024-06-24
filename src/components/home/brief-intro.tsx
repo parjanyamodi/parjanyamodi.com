@@ -25,7 +25,7 @@ export default function BriefIntro() {
               <p className="font-thin text-sm text-average-yellow">Proven experience building highly impactful products from scratch and working with leading startups.</p>
             </div>
           </div>
-          <Link href={"/assets/ParjanyaModi-Resume.pdf"} rel="noopener noreferrer" target="_blank" className="w-fit text-black font-bold text-lg py-4 px-8 bg-violet-600 active:border-0 active:border-t-4 active:border-l-4 border-r-4 border-b-4 border-transparent hover:border-gray-300">My Resume</Link>
+          <Link href={"/assets/ParjanyaModi-Resume.pdf"} rel="noopener noreferrer" target="_blank" className="w-fit text-black font-bold text-lg py-4 px-8 bg-violet-500 active:border-0 active:border-t-4 active:border-l-4 border-r-4 border-b-4 border-transparent hover:border-gray-300">My Resume</Link>
         </div>
       </div>
       <div className="flex flex-col md:min-w-1/3 ">
