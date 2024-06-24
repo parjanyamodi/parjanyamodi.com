@@ -26,7 +26,7 @@ export default function Navbar() {
           body: "py-6",
           backdrop: "bg-average-yellow/20 backdrop-opacity-100",
           base: "rounded-none bg-black",
-          closeButton: "bg-white active:bg-white/20 rounded-none text-xl p-1",
+          closeButton: "bg-white active:bg-white/20 rounded-none text-xl p-1 m-1",
         }}
       >
         <ModalContent>

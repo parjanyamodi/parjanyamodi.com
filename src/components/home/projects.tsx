@@ -6,7 +6,7 @@ import Image from "next/image"
 function ProjectDetails({ project }: { project: Project }) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   return <Card classNames={{
-    base: "outline-2 outline-average-yellow bg-average-yellow/20 outline-offset-4 xl:basis-1/4 lg:basis-2/3 md:basis-2/3 flex flex-col",
+    base: "outline-2 outline-average-yellow bg-average-yellow/20 outline-offset-4 flex flex-col",
   }}
     radius="none">
     {project.image ? <Image src={project.image || ""} alt={project.name} className="w-full" /> : <div className="bg-black h-4/5 flex items-center justify-center text-white/40"><p>Image not available!</p></div>}
@@ -28,7 +28,7 @@ function ProjectDetails({ project }: { project: Project }) {
             body: "py-6",
             backdrop: "bg-average-yellow/20 backdrop-opacity-100",
             base: "rounded-none bg-black",
-            closeButton: "bg-white active:bg-white/20 rounded-none text-xl p-1",
+            closeButton: "bg-white active:bg-white/20 rounded-none text-xl p-1 m-1",
           }}
           placement="center"
           backdrop="blur"
@@ -41,7 +41,7 @@ function ProjectDetails({ project }: { project: Project }) {
                 <ModalHeader><p className="text-lg text-average-yellow font-semibold">{project.name}</p></ModalHeader>
                 <ModalBody>
                   <div className="flex flex-row w-full justify-center">
-                    <Image src={project.image} alt={project.name} className="w-2/3 border-1 border-white/30 " />
+                    {project.image ? <Image src={project.image} alt={project.name} className="w-2/3 border-1 border-white/30 " /> : <div className="text-white/40">Image not available!</div>}
                   </div>
                   <div className="flex flex-row">
                     <p className="text-sm">{project.description}</p>
@@ -84,12 +84,26 @@ export default function Projects() {
     type: "single-contributor",
     sourceType: "private",
     state: "planned"
+  },
+  {
+    name: "College-Student Relations ERP System",
+    description: "Played a key role in the team that designed and developed Enterprise Resource Planning software that can be primarily used by higher education institutions. This software enables student-proctor interaction, fast data retrieval and seamless integration. This reduces the burden of maintaining different data genres for the institution and converts it into a hassle-free process.",
+    type: "multi-contributor",
+    sourceType: "private",
+    state: "completed"
+  },
+  {
+    name: "Certitude App",
+    description: "Me with one more collaborator coded and implemented this desktop program to entirely automate certifying the winners and participants in events hosted by my college. Based on personalised templates and relevant data, the Certitude App automates the procedures of certificate generation, segregation, and email to the appropriate participant or winner. With this software, organisations may now certify their participants and winners in a matter of seconds rather than hours.",
+    type: "multi-contributor",
+    sourceType: "private",
+    state: "completed"
   }]
   return <div className="flex flex-col px-8 xl:px-64 lg:px-44 md:px-30 py-32 gap-8">
     <div className="flex flex-row w-full h-full">
       <p className="text-4xl font-bold text-average-yellow">Projects</p>
     </div>
-    <div className="flex flex-row w-full flex-wrap flex-1 h-full gap-4">
+    <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 w-full h-full gap-8">
       {
         projects.map((project, index) => (<ProjectDetails key={index} project={project} />))
       }
