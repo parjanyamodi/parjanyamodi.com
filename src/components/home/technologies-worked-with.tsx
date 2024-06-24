@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Divider } from "@nextui-org/react"
+import { Divider, Tooltip } from "@nextui-org/react"
 
 import reactJSLogo from "@/assets/technologies/reactjs.svg"
 import nextJSLogo from "@/assets/technologies/nextjs.svg"
@@ -27,6 +27,25 @@ import s3Logo from "@/assets/technologies/db/s3.png"
 import redisLogo from "@/assets/technologies/db/redis.svg"
 import cassandraLogo from "@/assets/technologies/db/cassandra.png"
 import hadoopLogo from "@/assets/technologies/db/hadoop.png"
+import jenkinsLogo from "@/assets/technologies/clouddevops/jenkins.png"
+import dockerLogo from "@/assets/technologies/clouddevops/docker.svg"
+import prometheusLogo from "@/assets/technologies/clouddevops/prometheus.png"
+import jiraLogo from "@/assets/technologies/clouddevops/jira.png"
+import grafanaLogo from "@/assets/technologies/clouddevops/grafana.svg"
+
+function TechShowCase({ technology }: { technology: Technology }) {
+  return <Tooltip content={<div className="flex flex-col gap-2">
+    <p className="">{technology.name}</p>
+  </div>}
+    placement="bottom"
+    classNames={{
+      base: "bg-black",
+      content: "bg-average-yellow/20 outline-2 outline-average-yellow rounded-none"
+    }}
+  >
+    <Image src={technology.logo} alt={technology.name + " Logo"} className="h-6 w-auto opacity-90 hover:opacity-100 hover:scale-110 transition-all" />
+  </Tooltip>
+}
 
 export default function TechnologiesWorkedWith() {
   const feTechnologies = [
@@ -130,6 +149,21 @@ export default function TechnologiesWorkedWith() {
   }, {
     name: "Digital Ocean",
     logo: digitalOceanLogo
+  }, {
+    name: "Jenkins",
+    logo: jenkinsLogo
+  }, {
+    name: "Docker",
+    logo: dockerLogo
+  }, {
+    name: "Prometheus",
+    logo: prometheusLogo
+  }, {
+    name: "Jira",
+    logo: jiraLogo
+  }, {
+    name: "Grafana",
+    logo: grafanaLogo
   }
   ]
   return <div className="flex flex-col px-8 xl:px-64 lg:px-44 md:px-30 py-32 gap-8">
@@ -139,44 +173,28 @@ export default function TechnologiesWorkedWith() {
     <p className="text-lg font-medium">Frontend Technologies :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
-        feTechnologies.map((technology, index) => {
-          return <div key={index} className="flex flex-col">
-            <Image src={technology.logo} alt={technology.name + " Logo"} className="h-6 w-auto" />
-          </div>
-        })
+        feTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
     <Divider className="bg-white/20" />
     <p className="text-lg font-medium">Backend Technologies :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
-        beTechnologies.map((technology, index) => {
-          return <div key={index} className="flex flex-col">
-            <Image src={technology.logo} alt={technology.name + " Logo"} className="h-6 w-auto" />
-          </div>
-        })
+        beTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
     <Divider className="bg-white/20" />
     <p className="text-lg font-medium">Storage & Database Systems :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
-        databaseStorageTechnologies.map((technology, index) => {
-          return <div key={index} className="flex flex-col">
-            <Image src={technology.logo} alt={technology.name + " Logo"} className="h-6 w-auto" />
-          </div>
-        })
+        databaseStorageTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
     <Divider className="bg-white/20" />
     <p className="text-lg font-medium">Cloud & DevOps Technologies :-</p>
     <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
       {
-        cloudDevOpsTechnologies.map((technology, index) => {
-          return <div key={index} className="flex flex-col">
-            <Image src={technology.logo} alt={technology.name + " Logo"} className="h-6 w-auto" />
-          </div>
-        })
+        cloudDevOpsTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
   </div>
