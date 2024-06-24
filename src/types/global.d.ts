@@ -14,4 +14,14 @@ declare global {
     state: "completed" | "in-progress" | "planned",
     githubLink?: string,
   }
+  type WorkExperience = {
+    name: string;
+    role: string;
+    description: string;
+    points: string[];
+    endDate: string;
+    startDate: string;
+    type: "full-time" | "internship";
+    logo?: string | StaticImageData;
+  }
 }
