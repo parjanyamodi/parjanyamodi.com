@@ -100,7 +100,7 @@ export default function Projects() {
     state: "completed"
   }]
   return <div className="flex flex-col px-8 xl:px-64 lg:px-44 md:px-30 py-32 gap-8">
-    <div className="flex flex-row w-full h-full">
+    <div className="flex flex-row w-full h-full" id="projects">
       <p className="text-4xl font-bold text-average-yellow">Projects</p>
     </div>
     <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 w-full h-full gap-8">
