@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
-  return <div className="flex flex-row justify-between w-full px-12 xl:px-64 lg:px-44 md:px-30 py-8">
+  return <div className="flex flex-row justify-between w-full px-8 xl:px-64 lg:px-44 md:px-30 py-6 md:py-8">
     <div className="flex items-center">
       {/* <Image src="" alt="" className="h-8 w-8" /> */}
       <span className="font-bold text-xl">Parjanya Modi</span>

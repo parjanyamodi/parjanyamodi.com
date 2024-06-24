@@ -1,5 +1,5 @@
 export default function ConceptualIntro() {
-  return <div className="flex flex-col bg-white px-12 xl:px-64 lg:px-44 md:px-30 py-12 gap-8">
+  return <div className="flex flex-col bg-white px-8 xl:px-64 lg:px-44 md:px-30 py-12 gap-8">
     <div className="flex flex-row w-full h-full">
       <p className="text-indigo-700 text-4xl font-extrabold">I&apos;m DED! <span>💀</span></p>
     </div>
