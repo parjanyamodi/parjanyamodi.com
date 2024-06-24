@@ -63,12 +63,14 @@ function WorkDetails({ workExperience }: { workExperience: WorkExperience }) {
                   </div>
                 </ModalBody>
                 <ModalFooter>
-                  <div className="flex flex-row w-full justify-between">
+                  <div className="flex flex-col sm:flex-row w-full justify-between gap-2">
                     <div className="flex flex-row gap-4 items-center">
                       <p className="text-xs font-light bg-white text-black px-2 py-1">{workExperience.type}</p>
                       <p className="text-xs font-light text-white/90 bg-indigo-700 w-fit px-2 py-1">{workExperience.startDate} - {workExperience.endDate}</p>
                     </div>
-                    <button className="text-sm bg-average-yellow text-black px-3 py-1" onClick={onClose}>Close</button>
+                    <div className="flex flex-row gap-2 justify-end">
+                      <button className="text-sm bg-average-yellow text-black px-3 py-1 w-fit" onClick={onClose}>Close</button>
+                    </div>
                   </div>
                 </ModalFooter>
               </>

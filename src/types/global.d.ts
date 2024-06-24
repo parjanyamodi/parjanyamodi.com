@@ -13,6 +13,7 @@ declare global {
     sourceType: "open-source" | "private",
     state: "completed" | "in-progress" | "planned",
     githubLink?: string,
+    websiteLink?: string,
   }
   type WorkExperience = {
     name: string;
