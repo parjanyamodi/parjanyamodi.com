@@ -47,13 +47,13 @@ function ProjectDetails({ project }: { project: Project }) {
                 </div>
               </ModalBody>
               <ModalFooter>
-                <div className="flex flex-row justify-between w-full">
+                <div className="flex flex-col md:flex-row justify-between w-full gap-2">
                   <div className="flex flex-row gap-2">
                     <p className="text-xs bg-violet-700 text-white px-2 py-1 items-center flex">{project.type}</p>
                     <p className="text-xs bg-teal-500 px-2 py-1 text-black items-center flex">{project.sourceType}</p>
                     <p className="text-xs bg-white px-2 py-1 text-black items-center flex">{project.state}</p>
                   </div>
-                  <div className="flex flex-row gap-2">
+                  <div className="flex flex-row justify-between md:justify-end gap-2">
                     {project.githubLink && <a href={project.githubLink} target="_blank" className="bg-blue-600 px-2 py-1 text-sm text-white">GitHub</a>}
                     <button className="bg-average-yellow px-2 py-1 text-sm text-black" onClick={onClose}>Close</button>
                   </div>
