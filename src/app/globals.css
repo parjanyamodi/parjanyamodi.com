@@ -29,6 +29,15 @@ body {
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 ::-moz-selection {
   @apply bg-violet-500/60;
 }
