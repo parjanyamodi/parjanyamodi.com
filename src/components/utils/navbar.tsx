@@ -10,7 +10,7 @@ export default function Navbar() {
     target: "_self"
   }, {
     name: "Blogs",
-    link: "https://medium.com/@parjanyahmodi",
+    link: "https://parjanyahmodi.medium.com/",
     target: "_blank"
   }, {
     name: "Contact Me",
