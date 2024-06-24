@@ -20,7 +20,7 @@ export default function Socials() {
       link: "mailto:parjanyahmodi@gmail.com"
     }
   ]
-  return <div className="flex flex-row w-full h-full justify-center items-center px-12 xl:px-64 lg:px-44 md:px-30 pb-12 gap-8">
+  return <div className="flex flex-row w-full h-full justify-center items-center px-8 xl:px-64 lg:px-44 md:px-30 pb-12 gap-8">
     {
       socials.map((social, index) => (<Link key={index} href={social.link} target="_blank" rel="noopener noreferrer">
         {social.icon}

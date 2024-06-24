@@ -1,5 +1,5 @@
 export default function WorkExperienceBrief() {
-  return <div className="flex flex-col px-12 xl:px-64 lg:px-44 md:px-30 py-32 gap-8">
+  return <div className="flex flex-col px-8 xl:px-64 lg:px-44 md:px-30 py-32 gap-8">
     <div className="flex flex-col lg:flex-row w-full h-full">
       <div className="flex flex-col w-full h-full gap-4">
         <p className="text-4xl font-bold text-average-yellow">Over the years,</p>

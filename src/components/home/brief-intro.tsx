@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function BriefIntro() {
   const jobProfiles = ["Product Engineer", "Full Stack Developer", "Cloud Architect", "System Designer", "DevOps Engineer"]
 
-  return <div className="flex flex-row w-full h-full justify-center items-center px-12 xl:px-64 lg:px-44 md:px-30 py-4">
+  return <div className="flex flex-row w-full h-full justify-center items-center px-8 xl:px-64 lg:px-44 md:px-30 py-0 md:py-4">
     <div className="flex flex-col md:flex-row w-full py-16 gap-8">
       <div className="flex flex-col md:w-2/3 flex-wrap gap-16">
         <div className="flex flex-col gap-8">
