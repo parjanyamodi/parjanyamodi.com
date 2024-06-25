@@ -16,7 +16,7 @@ function WorkDetails({ workExperience }: { workExperience: WorkExperience }) {
   >
     <CardBody>
       <div className="flex flex-col gap-1">
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-col sm:flex-row justify-between">
           <p className="text-md font-bold text-white">{workExperience.role}</p>
           <p className="text-xs font-light text-white/90 bg-indigo-700 w-fit px-2 py-1">{workExperience.startDate} - {workExperience.endDate}</p>
         </div>
