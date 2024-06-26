@@ -34,7 +34,7 @@ import jiraLogo from "@/assets/technologies/clouddevops/jira.png"
 import grafanaLogo from "@/assets/technologies/clouddevops/grafana.svg"
 
 function TechShowCase({ technology }: { technology: Technology }) {
-  return <Tooltip content={<div className="flex flex-col gap-2">
+  return <Tooltip offset={15} content={<div className="flex flex-col gap-2">
     <p className="">{technology.name}</p>
   </div>}
     placement="bottom"
@@ -43,7 +43,7 @@ function TechShowCase({ technology }: { technology: Technology }) {
       content: "bg-average-yellow/20 outline-2 outline-average-yellow rounded-none"
     }}
   >
-    <Image src={technology.logo} alt={technology.name + " Logo"} className="h-6 w-auto opacity-90 hover:opacity-100 hover:scale-110 transition-all" />
+    <Image src={technology.logo} alt={technology.name + " Logo"} className="h-8 w-auto hover:bg-average-yellow/20 px-2 py-1 opacity-90 hover:opacity-100 hover:scale-110 transition-all" />
   </Tooltip>
 }
 
@@ -169,29 +169,29 @@ export default function TechnologiesWorkedWith() {
     <div className="flex flex-row w-full h-full">
       <p className="text-4xl font-bold text-average-yellow">Technologies I&apos;ve worked with</p>
     </div>
-    <p className="text-lg font-medium">Frontend Technologies :-</p>
-    <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
+    <p className="text-lg font-bold">Frontend Technologies</p>
+    <div className="flex flex-row flex-wrap w-full h-full gap-4 items-center">
       {
         feTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
     <Divider className="bg-white/20" />
-    <p className="text-lg font-medium">Backend Technologies :-</p>
-    <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
+    <p className="text-lg font-bold">Backend Technologies</p>
+    <div className="flex flex-row flex-wrap w-full h-full gap-4 items-center">
       {
         beTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
     <Divider className="bg-white/20" />
-    <p className="text-lg font-medium">Storage & Database Systems :-</p>
-    <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
+    <p className="text-lg font-bold">Storage & Database Systems</p>
+    <div className="flex flex-row flex-wrap w-full h-full gap-4 items-center">
       {
         databaseStorageTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }
     </div>
     <Divider className="bg-white/20" />
-    <p className="text-lg font-medium">Cloud & DevOps Technologies :-</p>
-    <div className="flex flex-row flex-wrap w-full h-full gap-8 items-center">
+    <p className="text-lg font-bold">Cloud & DevOps Technologies</p>
+    <div className="flex flex-row flex-wrap w-full h-full gap-4 items-center">
       {
         cloudDevOpsTechnologies.map((technology, index) => (<TechShowCase key={index} technology={technology} />))
       }

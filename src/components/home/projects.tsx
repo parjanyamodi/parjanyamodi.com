@@ -6,12 +6,12 @@ import Image from "next/image"
 function ProjectDetails({ project }: { project: Project }) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   return <Card classNames={{
-    base: "outline-2 outline-average-yellow bg-average-yellow/20 outline-offset-4 flex flex-col",
+    base: "bg-average-yellow/20 flex flex-col",
   }}
     radius="none">
-    {project.image ? <Image src={project.image || ""} alt={project.name} className="w-full" /> : <div className="bg-black h-4/5 flex items-center justify-center text-white/40"><p>Image not available!</p></div>}
-    <div className="flex flex-col justify-between w-full h-full">
-      <div className="flex flex-col gap-2 p-2 w-full">
+    {project.image ? <Image src={project.image || ""} alt={project.name} className="w-full p-1" /> : <div className=" h-4/5 flex items-center justify-center text-white/40 p-1 fill-black"><p className="h-full w-full bg-black text-center items-center justify-center flex">Image not available!</p></div>}
+    <div className="flex flex-col justify-between gap-2 w-full h-full">
+      <div className="flex flex-col gap-2 ps-2 w-full">
         <p className="text-lg font-bold text-average-yellow">{project.name}</p>
         <p className="text-sm text-white/80 line-clamp-3">{project.description}</p>
         <div className="flex flex-row flex-wrap gap-2 w-full">
@@ -108,7 +108,7 @@ export default function Projects() {
     <div className="flex flex-row w-full h-full" id="projects">
       <p className="text-4xl font-bold text-average-yellow">Projects</p>
     </div>
-    <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 w-full h-full gap-8">
+    <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 w-full h-full gap-2">
       {
         projects.map((project, index) => (<ProjectDetails key={index} project={project} />))
       }
